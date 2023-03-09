@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body> 
+   
+    <body bgcolor="#48C9B0">
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">acerca</a>
+            <a href="/contacto">contacto</a>
+        </nav>
+        <br>
+        <label for="search"></label>
+        <input type="search" id="BUSCADOR" name="search" placeholder="Buscar">
+    <form>
+        <center>
+            <header>FORMULARIO</header>
+            <br>
+            <label for="Nombre">Nombre:</label>
+            <br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Ingrese nombre" required>
+            <br>
+            <label for="Apellido">Apellido:</label>
+            <br>
+            <input type="text" id="Apellido" name="Apellido" placeholder="Ingrese apellido" required>
+            <br>
+            <label for="Edad">Edad:</label>
+            <br>
+            <input type="number" id=""Edad name="Edad" placeholder="Ingrese edad" required>
+            <br>
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <br>
+            <input type="date" id="nacimiento" name="nacimiento" required>
+            <br>
+            <label for="Ciudad">Ciudad</label>
+            <br>
+            <select name="Ciudad" id="Ciudad">
+                <option value="">ciudad de nacimiento</option>
+                <option value="Bogota D.C">Bogota D.C</option>
+                <option value="Medellin">Medellin</option>
+                <option value="Tolima">Tolima</option>
+                <option value="Cali">Cali</option>
+                <option value="Barranquilla">Barranquilla</option>
+                <option value="Cartagena">Cartagena</option>
+            </select>
+            <br>
+            <label for="datetime">Fecha y hora:</label>
+            <br>
+            <input type="datetime-local" id="datetime" name="datetime">
+            <br>
+            <label for="Genero">Genero:</label>
+            <br>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Masculino" name="Genero" value="Masculino" required>
+            <br>
+            <label for="Femenino">Femenino</label>
+            <input type="radio" id="Femenino" name="Genero" value="Femenino" required> 
+            <br>
+            <label for="Peso">Peso:</label>
+            <br>
+            <input type="number" id="Peso" name="Peso" placeholder="Ingrese peso" step="0.1" required>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="ejemplo@hotmail.com" required>
+            <br>
+            <label for="telefono">telefono</label>
+            <br>
+            <input type="tel" id="telefono" name="telefono" placeholder="300******">
+            <br>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="contraseña" required>
+            <br>
+            <label for="file">H oja de vida</label>
+            <br>
+            <input type="file" id="file" name="file" accept=".pdf, .jpg">
+            <br>
+            <input type="submit" value="Enviar">
+            <br>
+
+        </center>
+    </form>
+    
+</body>
+</html>
