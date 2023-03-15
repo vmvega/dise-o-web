@@ -1,0 +1,77 @@
+html, body {
+    background-color: white
+}
+.dropdown-menu{
+    margin: 17px;
+    background: rgb(11, 11, 12);
+    color: white;
+    box-shadow:0 0 10px white; 
+}
+.barra{
+    background-color: rgb(11, 11, 12);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+.barra-lateral{
+    background: #252121;
+    color: white;
+    min-width: 250px;
+    min-height: 200vh; 
+    padding: 0; 
+}
+.barra-lateral a{
+    color: white;
+}
+.barra-lateral .menu a {
+    display: block;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    border-bottom: 1px #252121;
+}
+.barra-lateral .menu a:hover{
+    background-color: #003c5d;
+    text-decoration : none;
+}
+.barra-lateral .menu{
+    border-top: 5px white solid;
+}
+.barra-lateral .menu a i{
+    margin-right: 20px;
+}
+.main{
+    padding-top: 40px;
+}
+.main .columna {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+@media screen and (max-width:1300px){
+    .barra-lateral{
+        min-width: auto;
+    }
+    .barra-lateral .menu a span{
+        display: none;
+    }
+    .barra-lateral .menu a i{
+        margin: 0;
+    }
+    .barra{
+        min-width: auto;
+    }
+    .dropdown-menu{
+        margin: 20px -79px 0px;
+    }
+}
+@media screen and (max-width:575px){
+    .barra-lateral{
+        height: auto;
+    }
+    .barra-lateral.menu a{
+        display: inline-block;
+        border-bottom: none;
+
+    }
+}
+
